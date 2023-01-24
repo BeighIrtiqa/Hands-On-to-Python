@@ -5,8 +5,8 @@
 def digits(n):
     c = 0
     while n:
-        c = c + 1
-        n = n // 10
+        c += 1
+        n //= 10
     return c
 
 
@@ -16,8 +16,8 @@ def armstrong(n, c):
     while n > 0:
         digit = n % 10
         power = digit ** c
-        total = total + power
-        n = n // 10
+        total += power
+        n //= 10
     return total
 
 
