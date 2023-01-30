@@ -1,4 +1,4 @@
-#
+# WAP to check if a number exists in a list or not
 
 n = int(input('Enter length of list: '))
 test_list = []
